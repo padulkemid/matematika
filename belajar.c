@@ -1,11 +1,15 @@
-// Mencoba untuk belajar C Programming
-// Help me ya !
+/* Ini adalah source code untuk program Matematika buatan saya yang bisa di cari di GitHub.
+ * Juga ini di lisensikan oleh GPL v2 
+ * Pembuat : Fadhil Muhammad
+ * Kritik Saran bisa langsung mention twitter saya @dhulFMS
+ * Terima Kasih
+ */
 
 #include<stdio.h>
 
 int main()
 {
-  int b,c,d;
+  int b,btambah,c,ckali,d,dkurang;
   char pilihan;
   printf("Program C Matematika , silahkan anda pilih mau apa ?\n");
   printf("[x] Perkalian\n");
@@ -15,24 +19,30 @@ int main()
   switch (pilihan)
   {
     case 'x':
-       printf(" Program akan mengkalikan 2 , angka yang diinput anda \n");
+       printf(" Angka berapakah yang ingin anda Kalikan ? \n");
        printf(" Input disini = ");
        scanf("%d",&c);
-       c = c * 2;
+       printf(" dan ingin dikalikan berapa ? \n");
+       scanf("%d",&ckali);
+       c = c * ckali;
        printf(" Jawabannya adalah = %d\n",c);
        break;
     case 'p':
-       printf(" Program akan menambahkan 2 , angka yang diinput anda \n");
+       printf(" Angka berapakah yang ingin anda Tambahkan ?\n");
        printf(" Input disini = ");
        scanf("%d",&b);
-       b = b + 2;
+       printf(" dan ingin ditambahkan berapa ? \n");
+       scanf("%d",&btambah);
+       b = b + btambah;
        printf(" Jawabannya adalah = %d\n",b);
        break;
     case 'k':
-       printf(" Program akan mengurangkan 2 , angka yang diinput anda \n");
+       printf(" Angka berapakah yang ingin anda Kurangi ?\n");
        printf(" Input disini = ");
        scanf("%d",&d);
-       d = d - 2;
+       printf(" dan ingin dikurangi berapa ? \n");
+       scanf("%d",&dkurang);
+       d = d - dkurang;
        printf(" Jawabannya adalah = %d\n",d);
        break;
     default:
@@ -41,7 +51,6 @@ int main()
   printf("\n");
   printf("\n");
   printf(" Terima Kasih telah menggunakan program ini, mohon maaf jika masih banyak kesalahan, karena saya masih newbie  \n");
-  printf(" Licensed under GPL v2 \n");
   printf(" Copyright (c) Fadhil Muhammad, 2012 \n" );
   return 0;
 }
