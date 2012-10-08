@@ -3,7 +3,8 @@ Matematika
 
 Pertolongan Matematika untuk basic Perkalian, Pengurangan, dan Pertambahan
 ==========
-Log : - Initial Release
+Log : -Fitur baru , bisa mengalikan angka yang kita input
+      -Fixes Minority
 
 ==========
 Cara menjalan kan :
