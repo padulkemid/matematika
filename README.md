@@ -4,7 +4,8 @@ Matematika
 Pertolongan Matematika untuk basic Perkalian, Pengurangan, dan Pertambahan
 ==========
 Log : -Fitur baru , bisa mengalikan angka yang kita input
-      -Fixes Minority
+==========
+      -Fix Minor Bugs
 
 ==========
 Cara menjalan kan :
