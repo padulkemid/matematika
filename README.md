@@ -3,9 +3,10 @@ Matematika
 
 Pertolongan Matematika untuk basic Perkalian, Pengurangan, dan Pertambahan
 ==========
-Log : -Fitur baru , bisa mengalikan angka yang kita input
+Log : 
 ==========
       -Fix Minor Bugs
+      -Fitur baru , bisa mengalikan angka yang kita input
 
 ==========
 Cara menjalan kan :
