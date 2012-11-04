@@ -11,7 +11,7 @@ int main()
 {
   int b,btambah,c,ckali,d,dkurang;
   char pilihan;
-  printf("Program C Matematika , silahkan anda ingin melakukan apa ?\n");
+  printf("Program C Matematika , silahkan anda pilih mau apa ?\n");
   printf("[x] Perkalian\n");
   printf("[p] Pertambahan\n");
   printf("[k] Pengurangan\n");
