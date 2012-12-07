@@ -50,7 +50,6 @@ int main()
   }
   printf("\n");
   printf("\n");
-  printf(" Terima Kasih telah menggunakan program ini, mohon maaf jika masih banyak kesalahan, karena saya masih newbie  \n");
-  printf(" Copyright (c) Fadhil Muhammad, 2012 \n" );
+  printf(" ===========-------------------============== ");
   return 0;
 }
