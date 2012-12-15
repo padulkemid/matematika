@@ -1,6 +1,6 @@
 /* Ini adalah source code untuk program Matematika buatan saya yang bisa di cari di GitHub.
  * Juga ini di lisensikan oleh GPL v2 
- * Pembuat : Fadhil Muhammad
+ * Pembuat : Fadhil Muhammad <fadhil2903@gmail.com>
  * Kritik Saran bisa langsung mention twitter saya @dhulFMS
  * Terima Kasih
  */
@@ -46,10 +46,10 @@ int main()
        printf(" Jawabannya adalah = %d\n",d);
        break;
     default:
-       printf( " Salah pilih , Coba Lagi ! \n");
+       printf( " Anda salah menginput pilihan ! \n");
   }
   printf("\n");
   printf("\n");
-  printf(" ===========-------------------============== ");
+  printf(" =============-------------------============== \n ");
   return 0;
 }
